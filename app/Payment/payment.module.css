@@ -1,0 +1,117 @@
+/* Container for the entire payment module */
+.container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 40px;
+    background:linear-gradient(180deg, #27087D, #D43F40);/* Light blue-gray background for modern look */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 700px; /* Limiting width for better focus */
+    margin-left: 200px;
+    margin-top: 30px;
+    height: 100%;
+}
+
+/* Styling for the payment options */
+.options {
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 30px;
+}
+
+.button, .socialButton, .submitButton {
+    padding: 12px 24px;
+    border: solid;
+    border-width: 2px;
+    border-color: #0b0909;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #007bff; /* Bootstrap blue for a familiar feel */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin: 0 10px;
+}
+
+.button:hover, .socialButton:hover, .submitButton:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Slight lift effect */
+}
+
+.active {
+    background-color: #28a745; /* Green for active state, easy to distinguish */
+    box-shadow: 0 2px 4px rgba(0, 100, 0, 0.2); /* Deeper shadow for active button */
+}
+
+.form {
+    width: 100%; /* Full width to use space efficiently */
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 20px; /* Consistent gap between fields */
+    background-color:linear-gradient(180deg, #27087D, #D43F40);
+}
+
+.forminput {
+    padding: 10px 15px;
+    border-radius: 3px;
+    height: 20px;
+    border: 1px solid #0b0909; /* Subtle border */
+    background-color: #ffffff; /* Ensures the input is clearly visible */
+}
+
+.socialLogins {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Even spacing between social login buttons */
+    margin-top: 30%;
+   
+}
+
+.socialButton {
+    border: 0cm;
+    background-color: #007bff; /* Neutral dark for less attention than main actions */
+}
+
+.submitButton {
+    background-color: #dc3545; /* Red for importance of submission */
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    height: 300px;
+    margin-left: 100px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.formButton{
+    margin: 10px;
+    padding: 8px;
+    width: 80%;
+margin-top: 80px;
+    margin-left: 100px;
+    height: 40px;
+  }
+  
+  .formButton {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  .flex1{
+    display: flex;
+    flex-direction: column;
+  }
+  .h1{
+    color: white;
+    margin-left: 250px;
+  }

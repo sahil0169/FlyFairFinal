@@ -1,0 +1,170 @@
+/* flightSearch.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.form {
+  background:linear-gradient(180deg, #27087D, #D43F40);
+  display: flex;
+  flex-direction: row;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  flex-wrap: wrap;
+  margin-top: 20px;    
+  height: 10%;
+
+}
+
+.form select,
+.form input {
+  width:1%;
+  padding-top: 1px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin-right: 50px;
+}
+
+.form select:focus,
+.form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+.button {
+  padding-top: 1px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  font-size: 10px;
+  color: white;
+  background-color: #ed0e0e86;
+  box-shadow: 0 0 20px plum;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 10%;
+  height: 30px;
+  margin-top: 0px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+.inputform{
+  background-color: pink;
+  flex:1;
+  margin: 0;
+ margin-top: 0px;
+
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.flight{
+  display: flex; /* Establishes a flex container */
+ /* Centers content horizontally */
+   /* Centers content vertically */
+   justify-content: center;
+  padding: 10px;
+  flex-direction: row;
+ 
+ 
+ 
+}
+.flightimg{
+  width: 30%;
+  height: 20%;
+  
+  
+  
+}
+.dropdown {
+  padding: 8px;
+margin-right: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.dropdown:hover,
+.dropdown:focus {
+  border-color: #0056b3; /* blue border on hover/focus */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2); /* glowing effect on focus */
+  outline: none;
+}
+
+.table {
+  width: 80%;
+  height:100%;
+  border-collapse: collapse;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* shadow for the table */
+  border-radius: 8px; /* rounded corners for the table */
+}
+
+.table th, .table td {
+  border: 1px solid pink;
+  padding: 16px; /* more padding for a better visual structure */
+  text-align: left;
+  vertical-align: middle; /* align text vertically in the middle of the cell */
+}
+
+.table th {
+  background:linear-gradient(180deg, #27087D, #D43F40); /* use a solid color or a more vibrant gradient */
+  color: white; /* white text color for headers */
+  font-size: 16px; /* larger font size for headers */
+}
+
+.table td {
+  font-size: 16px; /* slightly larger text for data cells */
+}
+
+.table tr:nth-child(odd) {
+  background-color: #f8f8f8; /* zebra striping for rows */
+}
+
+.table tr:hover {
+  background-color:blue; /* hover effect for rows */
+  cursor: pointer; /* pointer cursor on row hover */
+}
+ 
+.button1{
+
+  padding-top: 1px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  font-size: 10px;
+  color: white;
+  background:linear-gradient(180deg, #27087D, #D43F40);
+  box-shadow: 0 0 20px plum;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 80%;
+  height: 30px;
+  margin-top: 0px;
+}
+.button1:hover {
+  background-color: #0056b3;
+}

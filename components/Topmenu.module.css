@@ -1,0 +1,114 @@
+.form1 {
+    /* background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; */
+    display: flex;
+  
+  }
+
+  .form1 label {
+    margin-bottom: 10px;
+    color:black;
+    font-weight: 50;
+  }
+  
+  .form1 select,
+  .form1 input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form1 select:focus,
+  .form1 input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+    outline: none;
+  }
+  
+  .button1 {
+
+    
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100px;
+  }
+  .button2 {
+
+    
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 150px;
+  }
+  .button3 {
+
+    
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 200px;
+  }
+  .button4 {
+
+    
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100px;
+  }
+  .button5 {
+
+    
+    font-size: 16px;
+    color: black;
+    background-color: rgb(200, 86, 149);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100px;
+  }
+  
+  .button1:hover {
+    background-color: #0056b3;
+  }
+  .button2:hover {
+    background-color: #0056b3;
+  }
+  .button3:hover {
+    background-color: #0056b3;
+  }
+  .button4:hover {
+    background-color: #0056b3;
+  }
+  .button5:hover {
+    background-color: white;
+  }
+  
+  
+  

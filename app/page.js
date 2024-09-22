@@ -1,10 +1,9 @@
 "use client"
 import { useSearchParams } from 'next/navigation'
 import {useState,useEffect} from 'react'
-import Header from "components/Header"
-import Side from "components/side"
+
 import Login from '@/components/login'
-import Cards from "components/cards"
+
 
 function page() {
 //   const searchParams = useSearchParams()
